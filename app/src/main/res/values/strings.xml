@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MusicalStructure</string>
+    <string name="play_name">正在播放</string>
+    <string name="people_name">音乐人</string>
+    <string name="aibum_name">专辑</string>
+    <string name="list_name">音乐列表</string>
+</resources>

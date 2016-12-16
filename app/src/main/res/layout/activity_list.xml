@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.ListActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="专辑 显示音乐列表信息"
+        android:layout_margin="30dp"/>
+    <TextView
+        android:id="@+id/zzbf"
+        style="@style/zileiStyle"
+        android:background="#efb962"
+        android:text="转正在播放"
+        />
+    <TextView
+        android:id="@+id/yyr"
+        style="@style/zileiStyle"
+        android:background="#9be448"
+        android:text="转音乐人"
+        />
+    <TextView
+        android:id="@+id/zj"
+        style="@style/zileiStyle"
+        android:background="#44e4d4"
+        android:text="转专辑"
+        />
+</LinearLayout>

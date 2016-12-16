@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.musicalstructure.MainActivity">
+
+    <TextView
+        android:id="@+id/play"
+        style="@style/CategoryStyle"
+        android:background="#efb962"
+        android:text="@string/play_name" />
+
+    <TextView
+        android:id="@+id/people"
+        style="@style/CategoryStyle"
+        android:background="#9be448"
+        android:text="@string/people_name" />
+
+    <TextView
+        android:id="@+id/aibum"
+        style="@style/CategoryStyle"
+        android:background="#44e4d4"
+        android:text="@string/aibum_name" />
+
+    <TextView
+        android:id="@+id/list"
+        style="@style/CategoryStyle"
+        android:background="#b46bef"
+        android:text="@string/list_name" />
+</LinearLayout>
